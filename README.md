@@ -1,2 +1,2 @@
-# maja1305.github.io
+# maja-uvalic-data.github.io
 My Data Analyst Portfolio
