@@ -1,100 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Maja Uvalić — Data Analyst</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #ffffff;
-      color: #111111;
-    }
+    <meta charset="UTF-8">
+    <title>Maja Uvalić – Data Analytics Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    .hero {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 0 1.5rem;
-    }
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .hero h2 {
-      font-size: 1.5rem;
-      font-weight: 500;
-      margin-bottom: 1rem;
-    }
-
-    .hero p {
-      max-width: 640px;
-      font-size: 1.1rem;
-      line-height: 1.6;
-      margin-bottom: 1.5rem;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 0.5rem;
-      padding: 0.75rem 1.8rem;
-      border: 2px solid #000;
-      text-decoration: none;
-      font-weight: 600;
-      color: #000;
-      transition: 0.25s;
-    }
-
-    .btn:hover {
-      background: #000;
-      color: #fff;
-    }
-
-    .social {
-      margin-top: 2rem;
-      display: flex;
-      gap: 1.5rem;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-    .social a {
-      text-decoration: none;
-      font-weight: 500;
-      color: #000;
-      border-bottom: 1px solid transparent;
-      transition: 0.25s;
-    }
-
-    .social a:hover {
-      border-bottom: 1px solid #000;
-    }
-  </style>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section class="hero">
-    <h1>Hi, I'm Maja Uvalić 👋</h1>
-    <h2>Data Analyst &amp; Pharmacist</h2>
-
-    <p>
-      Passionate about data-driven insights and combining pharmacy expertise with analytics
-      to improve healthcare decisions.
-    </p>
-
-    <a class="btn" href="https://github.com/maja-uvalic-data" target="_blank">
-      Visit my GitHub
-    </a>
-
-    <div class="social">
-      <a href="https://maja-uvalic-data.github.io" target="_blank">Portfolio Website</a>
-      <a href="https://www.linkedin.com/in/majauvalic" target="_blank">LinkedIn</a>
+<header class="site-header">
+    <div class="container nav-container">
+        <div class="logo">Maja Uvalić</div>
+        <nav class="nav">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="#resume">Resume</a>
+            <a href="#impressum">Impressum</a>
+        </nav>
     </div>
-  </section>
+</header>
+
+<main>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <p class="eyebrow">Data Analyst · Pharma Background</p>
+                <h1>Turning data into clear, actionable insights.</h1>
+                <p class="hero-subtitle">
+                    I’m Maja, a pharmacist turned aspiring Data Analyst based in Germany.
+                    I combine analytical skills, domain knowledge in healthcare, and modern
+                    data tools to support data-driven decisions.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn ghost">Get in touch</a>
+                </div>
+            </div>
+            <div class="hero-photo">
+                <img src="imgs/maja_profile.jpg" alt="Portrait of Maja" class="profile-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="container section-narrow">
+            <h2>About Me</h2>
+            <p>
+                I am a licensed pharmacist with several years of experience in community pharmacy
+                in Serbia and Germany. Through my work, I discovered a strong interest in data,
+                process optimization, and evidence-based decision making.
+            </p>
+            <p>
+                To build a new career path, I completed a Data Analytics program where I gained
+                hands-on experience with <strong>Python</strong>, <strong>SQL</strong>,
+                <strong>Tableau</strong>, and <strong>Excel</strong>. My main focus is
+                on exploring real-world datasets, cleaning and transforming data, and presenting
+                results in a way that is easy to understand for different stakeholders.
+            </p>
+            <p>
+                I am particularly interested in roles at the intersection of
+                <strong>healthcare, pharma, and data analysis</strong>, where I can use both my
+                domain expertise and my analytical toolkit.
+            </p>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2>Projects</h2>
+            <p class="section-intro">
+                Selected case studies from my data analytics training. Each project includes
+                the full workflow from problem definition to insights and recommendations.
+            </p>
+
+            <div class="projects-grid">
+                <!-- Instacart -->
+                <a href="instacart.html" class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="imgs/instacart_preview.png" alt="Instacart project preview">
+                    </div>
+                    <div class="project-content">
+                        <h3>Instacart Basket Analysis</h3>
+                        <p class="project-tagline">
+                            Customer segmentation and product pattern analysis for an online grocery retailer.
+                        </p>
+                        <p class="project-tech">
+                            Tools: Python, pandas, seaborn, Excel, Tableau
+                        </p>
+                        <p class="project-link">View case study →</p>
+                    </div>
+                </a>
+
+                <!-- Rockbuster -->
+                <a href="rockbuster.html" class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="imgs/rockbuster_preview.png" alt="Rockbuster project preview">
+                    </div>
+                    <div class="project-content">
+                        <h3>Rockbuster Stealth Data Strategy</h3>
+                        <p class="project-tagline">
+                            SQL-based analysis for a movie rental company expanding into online streaming.
+                        </p>
+                        <p class="project-tech">
+                            Tools: PostgreSQL, SQL, Tableau, PowerPoint
+                        </p>
+                        <p class="project-link">View case study →</p>
+                    </div>
+                </a>
+
+                <!-- Influenza -->
+                <a href="influenza.html" class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="imgs/influenza_preview.png" alt="Preparing for Influenza Season project preview">
+                    </div>
+                    <div class="project-content">
+                        <h3>Preparing for Influenza Season</h3>
+                        <p class="project-tagline">
+                            Exploring weather and flu-related patterns to support better planning for influenza season.
+                        </p>
+                        <p class="project-tech">
+                            Tools: Python, APIs, pandas, visualization libraries
+                        </p>
+                        <p class="project-link">View case study →</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="container section-narrow">
+            <h2>Contact</h2>
+            <p class="section-intro">
+                If you’d like to know more about my work, discuss a role, or just connect,
+                feel free to reach out.
+            </p>
+
+            <div class="contact-list">
+                <div class="contact-item">
+                    <span class="label">Email</span>
+                    <a href="mailto:mais1305@gmail.com">mais1305@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="label">LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/majauvalic/" target="_blank" rel="noopener">
+    linkedin.com/in/majauvalic
+</a>
+                </div>
+                <div class="contact-item">
+                    <span class="label">GitHub</span>
+                    <a href="https://github.com/maja-uvalic-data" target="_blank" rel="noopener">
+    github.com/maja-uvalic-data
+</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section section-alt">
+        <div class="container section-narrow">
+            <h2>Resume</h2>
+            <p class="section-intro">
+                You can download my resume as a PDF for a detailed overview of my skills,
+                experience, and education.
+            </p>
+            <a href="docs/Maja_Uvalić_CV.pdf" class="btn primary" target="_blank" rel="noopener">
+                Download Resume (PDF)
+            </a>
+        </div>
+    </section>
+
+    <!-- IMPRESSUM -->
+    <section id="impressum" class="section">
+        <div class="container section-narrow">
+            <h2>Impressum</h2>
+            <p>
+                Angaben gemäß § 5 TMG
+            </p>
+            <p>
+                Verantwortlich für den Inhalt dieser Webseite:<br>
+                <strong>Maja Uvalić</strong><br>
+                E-Mail: <a href="mailto:mais1305@gmail.com">mais1305@gmail.com</a>
+            </p>
+            <p class="impressum-note">
+                This is a personal, non-commercial portfolio website.
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>© <span id="year"></span> Maja Uvalić · Data Analytics Portfolio</p>
+    </div>
+</footer>
+
+<script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
+
