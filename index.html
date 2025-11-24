@@ -5,7 +5,7 @@
     <title>Maja Uvalić – Data Analytics Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Font -->
+    <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
     <!-- Styles -->
@@ -13,7 +13,7 @@
 </head>
 <body>
 <header class="site-header">
-    <div class="container nav-container">
+    <div class="container header-inner">
         <div class="logo">Maja Uvalić</div>
         <nav class="nav">
             <a href="#about">About</a>
@@ -28,30 +28,26 @@
 <main>
     <!-- HERO -->
     <section class="hero">
-        <div class="container hero-grid">
+        <div class="container hero-inner">
             <div class="hero-text">
                 <p class="eyebrow">Data Analyst · Pharma Background</p>
-                <h1>Turning data into clear, actionable insights.</h1>
+                <h1>Welcome to my Data Analytics Portfolio</h1>
                 <p class="hero-subtitle">
-                    I’m Maja, a pharmacist turned aspiring Data Analyst based in Germany.
-                    I combine analytical skills, domain knowledge in healthcare, and modern
-                    data tools to support data-driven decisions.
+                    I’m Maja Uvalić, a pharmacist turned aspiring Data Analyst based in Germany.
+                    I combine analytical skills, domain knowledge in healthcare, and modern data tools
+                    to support data-driven decisions.
                 </p>
-                <div class="hero-actions">
-                    <a href="#projects" class="btn primary">View Projects</a>
-                    <a href="#contact" class="btn ghost">Get in touch</a>
-                </div>
             </div>
             <div class="hero-photo">
-                <img src="imgs/maja_profile.jpg" alt="Portrait of Maja" class="profile-photo">
+                <img src="imgs/maja_profile.jpg" alt="Portrait of Maja Uvalić" class="profile-photo">
             </div>
         </div>
     </section>
 
     <!-- ABOUT -->
     <section id="about" class="section">
-        <div class="container section-narrow">
-            <h2>About Me</h2>
+        <div class="container narrow">
+            <h2>About me</h2>
             <p>
                 I am a licensed pharmacist with several years of experience in community pharmacy
                 in Serbia and Germany. Through my work, I discovered a strong interest in data,
@@ -74,75 +70,88 @@
 
     <!-- PROJECTS -->
     <section id="projects" class="section section-alt">
-        <div class="container">
-            <h2>Projects</h2>
+        <div class="container narrow">
+            <h2>Main Projects</h2>
             <p class="section-intro">
-                Selected case studies from my data analytics training. Each project includes
-                the full workflow from problem definition to insights and recommendations.
+                Below you can find a selection of case studies from my data analytics training.
+                Each project covers the full workflow from problem definition to insights and recommendations.
             </p>
 
-            <div class="projects-grid">
-                <!-- Instacart -->
-                <a href="instacart.html" class="project-card">
-                    <div class="project-image-wrapper">
-                        <img src="imgs/instacart_preview.png" alt="Instacart project preview">
-                    </div>
-                    <div class="project-content">
-                        <h3>Instacart Basket Analysis</h3>
-                        <p class="project-tagline">
-                            Customer segmentation and product pattern analysis for an online grocery retailer.
-                        </p>
-                        <p class="project-tech">
-                            Tools: Python, pandas, seaborn, Excel, Tableau
-                        </p>
-                        <p class="project-link">View case study →</p>
-                    </div>
-                </a>
+            <!-- Instacart -->
+            <article class="project">
+                <div class="project-image">
+                    <img src="imgs/instacart_preview.png" alt="Instacart Basket Analysis preview">
+                </div>
+                <div class="project-body">
+                    <h3>Instacart Basket Analysis</h3>
+                    <p class="project-description">
+                        Customer segmentation and product pattern analysis for an online grocery retailer.
+                        The goal was to help Instacart understand different customer groups, ordering
+                        habits, and product affinities to support targeted marketing strategies.
+                    </p>
+                    <p class="project-tools">
+                        <strong>Tools:</strong> Python, pandas, seaborn, Excel, Tableau
+                    </p>
+                    <!-- TODO: add real GitHub / Tableau links -->
+                    <ul class="project-links">
+                        <li><a href="#" target="_blank" rel="noopener">View GitHub repository</a></li>
+                        <li><a href="#" target="_blank" rel="noopener">View Tableau dashboard</a></li>
+                    </ul>
+                </div>
+            </article>
 
-                <!-- Rockbuster -->
-                <a href="rockbuster.html" class="project-card">
-                    <div class="project-image-wrapper">
-                        <img src="imgs/rockbuster_preview.png" alt="Rockbuster project preview">
-                    </div>
-                    <div class="project-content">
-                        <h3>Rockbuster Stealth Data Strategy</h3>
-                        <p class="project-tagline">
-                            SQL-based analysis for a movie rental company expanding into online streaming.
-                        </p>
-                        <p class="project-tech">
-                            Tools: PostgreSQL, SQL, Tableau, PowerPoint
-                        </p>
-                        <p class="project-link">View case study →</p>
-                    </div>
-                </a>
+            <!-- Rockbuster -->
+            <article class="project">
+                <div class="project-image">
+                    <img src="imgs/rockbuster_preview.png" alt="Rockbuster Stealth Data Strategy preview">
+                </div>
+                <div class="project-body">
+                    <h3>Rockbuster Stealth Data Strategy</h3>
+                    <p class="project-description">
+                        SQL-based analysis for a movie rental company expanding into online streaming.
+                        I explored customer behavior, revenue by region, and subscription patterns to
+                        inform Rockbuster’s market entry strategy and identify high-value customer segments.
+                    </p>
+                    <p class="project-tools">
+                        <strong>Tools:</strong> PostgreSQL, SQL, Tableau, PowerPoint
+                    </p>
+                    <ul class="project-links">
+                        <li><a href="#" target="_blank" rel="noopener">View GitHub repository</a></li>
+                        <li><a href="#" target="_blank" rel="noopener">View presentation</a></li>
+                    </ul>
+                </div>
+            </article>
 
-                <!-- Influenza -->
-                <a href="influenza.html" class="project-card">
-                    <div class="project-image-wrapper">
-                        <img src="imgs/influenza_preview.png" alt="Preparing for Influenza Season project preview">
-                    </div>
-                    <div class="project-content">
-                        <h3>Preparing for Influenza Season</h3>
-                        <p class="project-tagline">
-                            Exploring weather and flu-related patterns to support better planning for influenza season.
-                        </p>
-                        <p class="project-tech">
-                            Tools: Python, APIs, pandas, visualization libraries
-                        </p>
-                        <p class="project-link">View case study →</p>
-                    </div>
-                </a>
-            </div>
+            <!-- Preparing for Influenza Season -->
+            <article class="project">
+                <div class="project-image">
+                    <img src="imgs/influenza_preview.png" alt="Preparing for Influenza Season preview">
+                </div>
+                <div class="project-body">
+                    <h3>Preparing for Influenza Season</h3>
+                    <p class="project-description">
+                        Exploring weather and influenza-related patterns to support better planning for
+                        the flu season. This project combines domain knowledge from healthcare with
+                        data analysis to help allocate medical staff and resources more effectively.
+                    </p>
+                    <p class="project-tools">
+                        <strong>Tools:</strong> Python, APIs, pandas, visualization libraries
+                    </p>
+                    <ul class="project-links">
+                        <li><a href="#" target="_blank" rel="noopener">View GitHub repository</a></li>
+                        <li><a href="#" target="_blank" rel="noopener">Read full case study</a></li>
+                    </ul>
+                </div>
+            </article>
         </div>
     </section>
 
     <!-- CONTACT -->
     <section id="contact" class="section">
-        <div class="container section-narrow">
+        <div class="container narrow">
             <h2>Contact</h2>
             <p class="section-intro">
-                If you’d like to know more about my work, discuss a role, or just connect,
-                feel free to reach out.
+                If my portfolio sparked your interest, feel free to reach out.
             </p>
 
             <div class="contact-list">
@@ -152,15 +161,15 @@
                 </div>
                 <div class="contact-item">
                     <span class="label">LinkedIn</span>
-                    <a href="https://www.linkedin.com/in/majauvalic/" target="_blank" rel="noopener">
-    linkedin.com/in/majauvalic
-</a>
+                    <a href="https://www.linkedin.com/in/majauvalic" target="_blank" rel="noopener">
+                        linkedin.com/in/majauvalic
+                    </a>
                 </div>
                 <div class="contact-item">
                     <span class="label">GitHub</span>
                     <a href="https://github.com/maja-uvalic-data" target="_blank" rel="noopener">
-    github.com/maja-uvalic-data
-</a>
+                        github.com/maja-uvalic-data
+                    </a>
                 </div>
             </div>
         </div>
@@ -168,13 +177,13 @@
 
     <!-- RESUME -->
     <section id="resume" class="section section-alt">
-        <div class="container section-narrow">
+        <div class="container narrow">
             <h2>Resume</h2>
             <p class="section-intro">
                 You can download my resume as a PDF for a detailed overview of my skills,
                 experience, and education.
             </p>
-            <a href="docs/Maja_Uvalić_CV.pdf" class="btn primary" target="_blank" rel="noopener">
+            <a href="docs/Maja_Uvalic_CV.pdf" class="btn primary" target="_blank" rel="noopener">
                 Download Resume (PDF)
             </a>
         </div>
@@ -182,11 +191,9 @@
 
     <!-- IMPRESSUM -->
     <section id="impressum" class="section">
-        <div class="container section-narrow">
+        <div class="container narrow">
             <h2>Impressum</h2>
-            <p>
-                Angaben gemäß § 5 TMG
-            </p>
+            <p>Angaben gemäß § 5 TMG</p>
             <p>
                 Verantwortlich für den Inhalt dieser Webseite:<br>
                 <strong>Maja Uvalić</strong><br>
@@ -206,9 +213,7 @@
 </footer>
 
 <script>
-    // Set current year in footer
     document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 </body>
 </html>
-
