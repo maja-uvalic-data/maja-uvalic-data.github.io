@@ -283,13 +283,17 @@ body {
     }
 
     .profile-photo {
-        width: 170px;
-        height: 170px;
+        width: 190px;
+        height: 190px;
     }
+}
+
+/* Global override for big screens */
 .profile-photo {
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center 20%;
+    object-position: top;
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.18);
 }
