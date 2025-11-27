@@ -289,13 +289,12 @@ body {
 
 /* DESKTOP */
 .profile-photo {
-width: 100%;        
-  max-width: 300px;     
-  height: auto;       
-  object-fit: contain;  
-  object-position: top center;
-  border-radius: 10%;   
-  display: block;        
-  margin: 0 auto; 
+width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10%;
+    display: block;
+    margin: 0 auto;
 }
 
