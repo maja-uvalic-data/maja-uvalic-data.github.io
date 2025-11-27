@@ -289,8 +289,8 @@ body {
 
 /* DESKTOP */
 .profile-photo {
-  width: 230px;
-  height: 230px;
+  width: 250px;
+  height: 280px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top 
