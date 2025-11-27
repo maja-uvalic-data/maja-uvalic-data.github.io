@@ -294,7 +294,7 @@ width: 100%;
   height: auto;       
   object-fit: contain;  
   object-position: top center;
-  border-radius: 30%;   
+  border-radius: 10%;   
   display: block;        
   margin: 0 auto; 
 }
