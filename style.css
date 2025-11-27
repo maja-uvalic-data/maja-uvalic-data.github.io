@@ -298,11 +298,12 @@ body {
 
 .profile-photo {
     width: 100%;
-    height: auto;           /* čuva proporcije */
-    max-height: 300px;      /* ograničava visinu */
-    object-fit: contain;
-    object-position: top center; /* fokus na glavu */
-    border-radius: 10%;
+    max-width: 300px;
+    height: auto;              /* čuva proporcije */
+    object-fit: contain;       
+    object-position: top center;
+    border-radius: 50%;        /* kružna slika */
     display: block;
+    margin: 0 auto;
 }
 
