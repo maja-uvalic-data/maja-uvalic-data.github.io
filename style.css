@@ -289,21 +289,18 @@ body {
 
 /* DESKTOP */
 .hero-photo {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    max-width: 400px; /* širina slike */
-    height: 400px; /* visina kontejnera */
-    margin: 0 auto;
-    overflow: hidden; /* odsječeni deo ne iskače */
+    width: 260px;          /* koliko veliki krug */
+    height: 260px;
+    border-radius: 50%;    /* pravi krug */
+    overflow: hidden;      /* sve van kruga se odseca */
+    margin-left: auto;     /* gura sliku malo udesno, opciono */
 }
 
-.hero-photo .profile-photo {
+/* KAKO SE SLIKA POZICIONIRA U KRUGU */
+.hero-photo img.profile-photo {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: top 30%; /* pomeranje slike prema dole, fokus glave */
-    display: block;
+    object-fit: cover;         /* ispuni ceo krug */
+    object-position: 50% 20%;
 }
 
