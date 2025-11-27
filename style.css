@@ -291,8 +291,9 @@ body {
 .profile-photo {
 width: 100%;
     max-width: 300px;
-    height: auto;
-    object-fit: cover;
+    height: auto;       
+    object-fit: contain;  
+    object-position: top center;
     border-radius: 10%;
     display: block;
     margin: 0 auto;
