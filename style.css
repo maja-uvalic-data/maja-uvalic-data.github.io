@@ -288,14 +288,20 @@ body {
     }
 
 /* DESKTOP */
-.profile-photo {
-width: 100%;
+.profile-photo-container {
+    width: 100%;
     max-width: 300px;
-    height: auto;       
-    object-fit: contain;  
+    padding-top: 100%; /* proporcija kvadrata */
+    position: relative;
+}
+.profile-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     object-position: top center;
     border-radius: 10%;
-    display: block;
-    margin: 0 auto;
 }
 
