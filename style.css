@@ -291,18 +291,18 @@ body {
 .hero-photo {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* fokus na gornji deo slike */
-    max-width: 300px;
+    align-items: flex-start; /* fokus na gornji deo */
+    max-width: 300px; /* možeš povećati ako želiš veću sliku */
     margin: 0 auto;
+    overflow: hidden; /* važno da odsječeni deo ne iskače */
+    height: 400px; /* visina kontejnera, prilagodi po potrebi */
 }
 
 .hero-photo .profile-photo {
     width: 100%;
-    max-width: 300px;
-    height: auto;
-    object-fit: contain;
-    object-position: top center;
-    border-radius: 50%;
-    display: block;
+    height: 100%; /* koristi celu visinu kontejnera */
+    object-fit: cover; /* slika se popunjava i seče po potrebi */
+    object-position: top center; /* fokus na gornji deo (glavu) */
+    border-radius: 50%; /* ako želiš okruglu sliku */
 }
 
