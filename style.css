@@ -288,22 +288,21 @@ body {
     }
 
 /* DESKTOP */
-.profile-photo-container {
-   display: flex;
+.hero-photo {
+    display: flex;
     justify-content: center;
-    align-items: flex-start; /* gornji deo slike */
-    max-width: 300px;        /* širina kontejnera */
+    align-items: flex-start; /* fokus na gornji deo slike */
+    max-width: 300px;
     margin: 0 auto;
 }
 
-.profile-photo {
+.hero-photo .profile-photo {
     width: 100%;
     max-width: 300px;
-    height: auto;              /* čuva proporcije */
-    object-fit: contain;       
+    height: auto;
+    object-fit: contain;
     object-position: top center;
-    border-radius: 50%;        /* kružna slika */
+    border-radius: 50%;
     display: block;
-    margin: 0 auto;
 }
 
