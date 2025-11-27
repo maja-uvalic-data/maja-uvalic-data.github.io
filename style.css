@@ -289,19 +289,20 @@ body {
 
 /* DESKTOP */
 .profile-photo-container {
-    width: 100%;
-    max-width: 300px;
-    padding-top: 100%; /* proporcija kvadrata */
-    position: relative;
+   display: flex;
+    justify-content: center;
+    align-items: flex-start; /* gornji deo slike */
+    max-width: 300px;        /* širina kontejnera */
+    margin: 0 auto;
 }
+
 .profile-photo {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;           /* čuva proporcije */
+    max-height: 300px;      /* ograničava visinu */
     object-fit: contain;
-    object-position: top center;
+    object-position: top center; /* fokus na glavu */
     border-radius: 10%;
+    display: block;
 }
 
