@@ -1,1 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instacart Basket Analysis | Maja Uvalić</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- POVEŽI SA TVOJIM style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER / NAV (možeš prilagoditi da bude isti kao na index.html) -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Maja Uvalić</a>
+            <nav class="main-nav">
+                <a href="index.html#projects">Projects</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="project-page">
+        <!-- HERO BLOK ZA PROJEKAT -->
+        <section class="project-hero">
+            <div class="container project-hero-inner">
+                <div class="project-hero-text">
+                    <h1>Instacart Basket Analysis</h1>
+                    <p class="project-subtitle">
+                        Exploratory data analysis of online grocery shopping patterns to help Instacart better understand customer behavior and optimize marketing strategies.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Seaborn</span>
+                        <span class="tag">Matplotlib</span>
+                        <span class="tag">Data Cleaning</span>
+                        <span class="tag">EDA</span>
+                    </div>
+                    <div class="project-cta">
+                        <!-- OVDE UBACI SVOJE LINKOVE -->
+                        <a href="https://github.com/maja-uvalic-data/NAZIV_REPOZITORIJUMA" 
+                           class="btn primary" target="_blank" rel="noopener">
+                            View on GitHub
+                        </a>
+                        <a href="https://github.com/maja-uvalic-data/NAZIV_REPOZITORIJUMA/BLA_BLA_IPYNB" 
+                           class="btn secondary" target="_blank" rel="noopener">
+                            View Jupyter Notebook
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SLIKA / THUMBNAIL PROJEKTA -->
+                <div class="project-hero-image">
+                    <!-- Zameni ime slike svojim fajlom npr. imgs/instacart-thumbnail.png -->
+                    <img src="imgs/instacart-thumbnail.png" 
+                         alt="Instacart Basket Analysis dashboard preview">
+                </div>
+            </div>
+        </section>
+
+        <!-- SADRŽAJ PROJEKTA -->
+        <section class="project-content">
+            <div class="container project-grid">
+                <!-- LEVA KOLONA – TEKST -->
+                <div class="project-main">
+                    <h2>Project Overview</h2>
+                    <p>
+                        This project is part of the CareerFoundry Data Analytics program. 
+                        The goal was to analyze Instacart’s anonymized customer orders 
+                        and identify patterns in purchasing behavior, such as:
+                        when customers shop, which products are frequently bought together,
+                        and which customer segments can be targeted with specific marketing campaigns.
+                    </p>
+
+                    <h2>Business Questions</h2>
+                    <ul>
+                        <li>Which products are ordered most frequently?</li>
+                        <li>How do order patterns differ by time of day and day of week?</li>
+                        <li>Are there specific customer segments that behave differently?</li>
+                        <li>Which departments and product categories generate the most sales?</li>
+                    </ul>
+
+                    <h2>Data & Tools</h2>
+                    <p>
+                        The Instacart dataset consists of several CSV files with millions of rows 
+                        containing information about orders, products, aisles, and departments.
+                        I used Python and the following libraries:
+                    </p>
+                    <ul>
+                        <li><strong>Pandas</strong> – data cleaning, joining, aggregation</li>
+                        <li><strong>NumPy</strong> – numerical operations</li>
+                        <li><strong>Seaborn &amp; Matplotlib</strong> – visualizations</li>
+                        <li><strong>Jupyter Notebook</strong> – analysis and documentation</li>
+                    </ul>
+
+                    <h2>Methodology</h2>
+                    <ol>
+                        <li>Imported and inspected all CSV files</li>
+                        <li>Cleaned the data (missing values, data types, duplicates)</li>
+                        <li>Merged tables into a single analysis-ready dataframe</li>
+                        <li>Created new features (e.g., order_hour_of_day, order_frequency)</li>
+                        <li>Analyzed customer behavior and product demand</li>
+                        <li>Visualized patterns with bar charts, histograms, and crosstabs</li>
+                    </ol>
+
+                    <h2>Selected Visualizations</h2>
+                    <p>
+                        Below are examples of visualizations created during the analysis.
+                        Click on the images to open the full-size versions in a new tab.
+                    </p>
+
+                    <div class="project-images-grid">
+                        <!-- ZAMENI IMENA SLIKA SVOJIM FAJLOVIMA -->
+                        <a href="imgs/instacart-orders-by-hour.png" target="_blank">
+                            <img src="imgs/instacart-orders-by-hour.png" 
+                                 alt="Orders by hour of day">
+                        </a>
+                        <a href="imgs/instacart-top-products.png" target="_blank">
+                            <img src="imgs/instacart-top-products.png" 
+                                 alt="Top selling products">
+                        </a>
+                        <a href="imgs/instacart-departments.png" target="_blank">
+                            <img src="imgs/instacart-departments.png" 
+                                 alt="Orders by department">
+                        </a>
+                    </div>
+
+                    <h2>Example Summary Table</h2>
+                    <p>
+                        This table shows an example of aggregated results, 
+                        such as the top product categories and their share of total orders.
+                    </p>
+
+                    <!-- PRIMER HTML TABELE -->
+                    <table class="project-table">
+                        <thead>
+                            <tr>
+                                <th>Department</th>
+                                <th>Number of Orders</th>
+                                <th>Share of Total Orders</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Produce</td>
+                                <td>3,245,678</td>
+                                <td>35.2%</td>
+                            </tr>
+                            <tr>
+                                <td>Dairy & Eggs</td>
+                                <td>1,945,210</td>
+                                <td>21.1%</td>
+                            </tr>
+                            <tr>
+                                <td>Snacks</td>
+                                <td>1,123,567</td>
+                                <td>12.2%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h2>Key Insights</h2>
+                    <ul>
+                        <li>
+                            The majority of orders are placed in the late afternoon and early evening,
+                            suggesting that marketing campaigns could be timed around these peak hours.
+                        </li>
+                        <li>
+                            A small number of departments (e.g., Produce, Dairy &amp; Eggs) 
+                            account for a large share of total orders.
+                        </li>
+                        <li>
+                            There are clear patterns in reorders, indicating that Instacart can 
+                            recommend recurring items and personalize the shopping experience.
+                        </li>
+                    </ul>
+
+                    <h2>Conclusion & Next Steps</h2>
+                    <p>
+                        The analysis provides a foundation for targeted marketing campaigns
+                        and personalized recommendations. In the future, the project could be extended
+                        with customer segmentation using clustering methods or predictive models
+                        for forecasting next likely orders.
+                    </p>
+                </div>
+
+                <!-- DESNA KOLONA – SAŽETAK -->
+                <aside class="project-sidebar">
+                    <div class="project-card">
+                        <h3>Project Info</h3>
+                        <ul class="info-list">
+                            <li><strong>Role:</strong> Data Analyst</li>
+                            <li><strong>Domain:</strong> E-commerce / Retail</li>
+                            <li><strong>Client:</strong> CareerFoundry (practice project)</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Files & Links</h3>
+                        <ul class="info-list">
+                            <li>
+                                <a href="https://github.com/maja-uvalic-data/NAZIV_REPOZITORIJUMA" target="_blank" rel="noopener">
+                                    GitHub Repository
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/maja-uvalic-data/NAZIV_REPOZITORIJUMA/BLA_BLA_IPYNB" target="_blank" rel="noopener">
+                                    Jupyter Notebook
+                                </a>
+                            </li>
+                            <!-- Ako imaš PDF prezentaciju ili report -->
+                            <li>
+                                <a href="Docs/instacart_report.pdf" target="_blank" rel="noopener">
+                                    PDF Report (optional)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Skills Highlighted</h3>
+                        <ul class="info-list">
+                            <li>Data cleaning & wrangling</li>
+                            <li>Exploratory data analysis (EDA)</li>
+                            <li>Working with large datasets</li>
+                            <li>Visual storytelling with charts</li>
+                            <li>Business-focused insights</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2025 Maja Uvalić · Data Analyst &amp; Pharmacist</p>
+        </div>
+    </footer>
+</body>
+</html>
 
