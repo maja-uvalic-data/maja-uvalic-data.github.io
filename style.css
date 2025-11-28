@@ -270,15 +270,12 @@ body {
         font-size: 2rem;
     }
 
-    /* ako želiš manju sliku na mobilnom */
     .hero-photo {
         width: 200px;
         height: 200px;
     }
-}   /* ⬅⬅⬅ OVO ZATVARA @media BLOK */
+}  
 
-
-/* ==== DESKTOP + GLOBAL STIL ZA SLIKU ==== */
 .hero-photo {
     width: 260px;          /* koliko veliki krug */
     height: 260px;
@@ -293,4 +290,21 @@ body {
     object-fit: cover;         /* ispuni ceo krug */
     object-position: 50% 20%;  /* pomeranje fokusa */
 }
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 14px;
+}
+
+.social-icons svg {
+    opacity: .75;
+    transition: .25s ease;
+}
+
+.social-icons svg:hover {
+    opacity: 1;
+    transform: scale(1.14);
+}
+
 
