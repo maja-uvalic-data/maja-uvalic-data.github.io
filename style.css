@@ -343,6 +343,7 @@ body {
     transition: .3s ease;
     opacity: .85;
 }
-.social-icons a:nth-child(1):hover { color: #be8600; } /* Email gold */
-.social-icons a:nth-child(2):hover { color: #0A66C2; } /* LinkedIn blue */
-.social-icons a:nth-child(3):hover { color: #5A0096; } /* GitHub purple */
+.social-icons a:nth-child(1):hover svg { stroke: #be8600; } /* Email gold */
+.social-icons a:nth-child(2):hover svg { stroke: #0A66C2; } /* LinkedIn blue */
+.social-icons a:nth-child(3):hover svg { stroke: #5A0096; } /* GitHub purple */
+
