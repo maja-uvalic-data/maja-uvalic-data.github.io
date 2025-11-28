@@ -294,17 +294,17 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-top: 14px;
+    margin-top: 15px;
 }
 
 .social-icons svg {
-    opacity: .75;
-    transition: .25s ease;
+    width: 26px;
+    opacity: 0.75;
+    transition: 0.25s;
 }
 
 .social-icons svg:hover {
     opacity: 1;
     transform: scale(1.14);
 }
-
 
