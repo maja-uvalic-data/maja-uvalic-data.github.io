@@ -110,85 +110,66 @@ body {
 }
 
 
-
-/* Projects */
-.project {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2.5rem;
-    border-radius: 1.25rem;
-    overflow: hidden;
-    border: 1px solid rgba(15, 23, 42, 0.06);
-    background-color: #f9fafb;
+/* PROJECTS */
+.projects-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
 }
 
+/* Layout */
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.projects-grid .project {
+    flex: 1 1 300px;
+    max-width: 340px;
+}
+
+/* Cards */
+.project {
+    background: #f9fafb;
+    border-radius: 1.25rem;
+    border: 1px solid rgba(15, 23, 42, 0.06);
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+    transition: .25s ease;
+}
+
+.project:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.10);
+}
+
+/* Image */
 .project-image {
     width: 100%;
     padding-top: 52%;
     position: relative;
-    overflow: hidden;
     background: radial-gradient(circle at top, #eef2ff, #e5e7eb);
 }
 
 .project-image img {
     position: absolute;
     inset: 0;
-    width: 100%;
     height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
-.project-body {
-    padding: 1.3rem 1.5rem 1.4rem;
-}
+/* Text */
+.project-body { padding: 1.3rem 1.5rem 1.4rem; }
+.project-description { color: #4b5563; margin-bottom: .9rem; font-size: .95rem; }
+.project-tools { font-size: .85rem; color: #6b7280; margin-bottom: .9rem; }
 
-.project h3 {
-    margin: 0 0 0.5rem;
-    font-size: 1.2rem;
-}
-
-.project-description {
-    margin: 0 0 0.9rem;
-    color: #4b5563;
-}
-
-.project-tools {
-    margin: 0 0 0.9rem;
-    font-size: 0.9rem;
-    color: #6b7280;
-}
-
-.project-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.9rem;
-    font-size: 0.9rem;
-}
-
-.project-links a {
-    text-decoration: none;
-    color: #4f46e5;
-}
-
-.project-links a:hover {
-    text-decoration: underline;
-}
-
-.projects .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-    gap: 2.2rem;
-}
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-    gap: 2.2rem;
-    margin-top: 2rem;
-}
+/* Links */
+.project-links { display: flex; gap: .9rem; list-style: none; padding: 0; }
+.project-links a { text-decoration: none; color: #4f46e5; font-weight: 500; }
+.project-links a:hover { text-decoration: underline; }
 
 
 /* Buttons */
