@@ -290,7 +290,7 @@ body {
     object-fit: cover;         /* ispuni ceo krug */
     object-position: 50% 20%;  /* pomeranje fokusa */
 }
-/* HERO LAYOUT */
+/* HERO raspored */
 .hero-inner {
     display: flex;
     align-items: center;
@@ -299,15 +299,15 @@ body {
     flex-wrap: wrap;
 }
 
-/* DESNA STRANA: BLOK SA SLIKOM + IKONICAMA */
-.hero-photo {
+/* DESNO: slika + ikonice ispod nje */
+.hero-right {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* KRUG OKO SLIKE – OVO TI DRŽI ISTI LOOK */
-.hero-photo-circle {
+/* SLIKA U KRUGU – ovo NE brišeš */
+.hero-photo {
     width: 260px;
     height: 260px;
     border-radius: 50%;
@@ -315,14 +315,15 @@ body {
     box-shadow: 0 16px 40px rgba(15, 23, 42, 0.18);
 }
 
-.hero-photo-circle img {
+/* Kadriranje */
+.hero-photo img.profile-photo {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 50% 20%;  /* ovo što si već namestila da se vidi glava lepo */
+    object-position: 50% 20%;
 }
 
-/* IKONICE ISPOD KRUGA */
+/* 🔥 ikonice ispod slike */
 .social-icons {
     display: flex;
     justify-content: center;
@@ -338,13 +339,4 @@ body {
 .social-icons svg:hover {
     opacity: 1;
     transform: scale(1.14);
-}
-
-/* MALI TWEAK ZA MOBILNI (po želji) */
-@media (max-width: 640px) {
-    .hero-inner {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
 }
