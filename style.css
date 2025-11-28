@@ -290,17 +290,49 @@ body {
     object-fit: cover;         /* ispuni ceo krug */
     object-position: 50% 20%;  /* pomeranje fokusa */
 }
+/* HERO LAYOUT */
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* DESNA STRANA: BLOK SA SLIKOM + IKONICAMA */
+.hero-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* KRUG OKO SLIKE – OVO TI DRŽI ISTI LOOK */
+.hero-photo-circle {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.18);
+}
+
+.hero-photo-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 20%;  /* ovo što si već namestila da se vidi glava lepo */
+}
+
+/* IKONICE ISPOD KRUGA */
 .social-icons {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-top: 15px;
+    margin-top: 14px;
 }
 
 .social-icons svg {
-    width: 26px;
     opacity: 0.75;
-    transition: 0.25s;
+    transition: 0.25s ease;
 }
 
 .social-icons svg:hover {
@@ -308,3 +340,11 @@ body {
     transform: scale(1.14);
 }
 
+/* MALI TWEAK ZA MOBILNI (po želji) */
+@media (max-width: 640px) {
+    .hero-inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
