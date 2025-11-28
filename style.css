@@ -323,7 +323,7 @@ body {
     object-position: 50% 20%;
 }
 
-/* 🔥 ikonice ispod slike */
+
 .social-icons {
     display: flex;
     justify-content: center;
@@ -332,14 +332,13 @@ body {
 }
 
 .social-icons svg {
-    opacity: 0.75;
-    transition: 0.25s ease;
+    color: #111;     
+    opacity: .75;    
+    transition: .3s ease;
 }
 
-.social-icons svg:hover {
-    opacity: 1;
-    transform: scale(1.14);
-}
-.social-icons a:nth-child(1):hover svg { stroke: #be7a00; } 
-.social-icons a:nth-child(2):hover svg { stroke: #0A66C2; } 
-.social-icons a:nth-child(3):hover svg { color: #8A2BE2; }  
+
+.social-icons a:nth-child(1):hover svg { color: #be8600; } /* Email - gold */
+.social-icons a:nth-child(2):hover svg { color: #0A66C2; } /* LinkedIn - plava */
+.social-icons a:nth-child(3):hover svg { color: #8A2BE2; } /* GitHub - ljubičasta */
+
