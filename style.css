@@ -176,12 +176,18 @@ body {
 .project-links a:hover {
     text-decoration: underline;
 }
-/* ---> NEW - GRID LAYOUT ZA PROJEKTE <--- */
 
 #projects .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     gap: 2.2rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 2.2rem;
+    margin-top: 2rem;
 }
 
 
