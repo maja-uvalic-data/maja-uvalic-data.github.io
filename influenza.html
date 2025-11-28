@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Influenza Season Analysis | Maja Uvalić</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- POVEŽI SA TVOJIM style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER / NAV -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">Maja Uvalić</a>
+            <nav class="main-nav">
+                <a href="index.html#projects">Projects</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="project-page">
+        <!-- HERO BLOK PROJEKTA -->
+        <section class="project-hero">
+            <div class="container project-hero-inner">
+                <div class="project-hero-text">
+                    <h1>Influenza Season & Time-Series Analysis</h1>
+                    <p class="project-subtitle">
+                        Exploratory and time-series analysis of influenza activity over time, combining epidemiological data with external factors to better understand seasonal patterns.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Time Series</span>
+                        <span class="tag">Seaborn</span>
+                        <span class="tag">Matplotlib</span>
+                        <span class="tag">Healthcare</span>
+                    </div>
+                    <div class="project-cta">
+                        <!-- OVDE UBACI PRAVI LINK TVOG REPOZITORIJUMA -->
+                        <a href="https://github.com/maja-uvalic-data/NAZIV_INFLUENZA_REPO" 
+                           class="btn primary" target="_blank" rel="noopener">
+                            View on GitHub
+                        </a>
+                        <!-- LINK DO NOTEBOOKA -->
+                        <a href="https://github.com/maja-uvalic-data/NAZIV_INFLUENZA_REPO/PUTANJA_DO_IPYNB" 
+                           class="btn secondary" target="_blank" rel="noopener">
+                            View Jupyter Notebook
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SLIKA / THUMBNAIL PROJEKTA -->
+                <div class="project-hero-image">
+                    <!-- Zameni ime slike svojim fajlom, npr. neki dark thumbnail sa špricem/maskom -->
+                    <img src="imgs/influenza-thumbnail.png" 
+                         alt="Influenza season analysis visualization">
+                </div>
+            </div>
+        </section>
+
+        <!-- SADRŽAJ PROJEKTA -->
+        <section class="project-content">
+            <div class="container project-grid">
+                <!-- LEVA KOLONA – GLAVNI TEKST -->
+                <div class="project-main">
+                    <h2>Project Overview</h2>
+                    <p>
+                        This project focuses on analyzing influenza activity over time. 
+                        As part of the CareerFoundry Data Analytics program, I explored seasonal patterns,
+                        peaks, and trends to better understand how influenza evolves across months and years.
+                        With my background in pharmacy, I was particularly interested in how data can support
+                        public health decisions and planning.
+                    </p>
+
+                    <h2>Objectives</h2>
+                    <ul>
+                        <li>Identify seasonal peaks in influenza activity.</li>
+                        <li>Compare influenza levels across different time periods.</li>
+                        <li>Visualize trends with time-series plots.</li>
+                        <li>Explore potential relationships with external factors (e.g., temperature, time of year).</li>
+                    </ul>
+
+                    <h2>Data & Tools</h2>
+                    <p>
+                        The analysis is based on time-series data of influenza activity 
+                        (weekly or monthly measurements), combined with additional contextual data where available.
+                        I used the following tools:
+                    </p>
+                    <ul>
+                        <li><strong>Pandas</strong> – loading data, cleaning, resampling, aggregation</li>
+                        <li><strong>Matplotlib &amp; Seaborn</strong> – line plots, seasonal patterns</li>
+                        <li><strong>Jupyter Notebook</strong> – exploratory analysis and documentation</li>
+                        <li><strong>NumPy</strong> – basic numerical operations</li>
+                    </ul>
+
+                    <h2>Methodology</h2>
+                    <ol>
+                        <li>Loaded the influenza dataset and parsed date/time columns.</li>
+                        <li>Handled missing values and ensured a clean, continuous time index.</li>
+                        <li>Created additional time-based features (month, y
 
