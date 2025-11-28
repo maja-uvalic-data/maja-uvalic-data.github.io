@@ -342,4 +342,4 @@ body {
 }
 .social-icons a:nth-child(1):hover svg { stroke: #be7a00; } 
 .social-icons a:nth-child(2):hover svg { stroke: #0A66C2; } 
-.social-icons a:nth-child(3):hover svg { stroke: #000; }   
+.social-icons a:nth-child(3):hover svg { color: #8A2BE2; }  
