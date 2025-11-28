@@ -333,7 +333,7 @@ body {
 
 
 .social-icons a {
-    color: #111 !important;   
+    color: #111; 
     opacity: .8;
     transition: .3s ease;
 }
