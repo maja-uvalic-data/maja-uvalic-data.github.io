@@ -196,7 +196,6 @@ body {
     box-shadow: 0 10px 26px rgba(0,0,0,0.13);
 }
 
-
 /* ─────────────────────────────
    CONTENT AREA
 ────────────────────────────── */
@@ -227,7 +226,6 @@ body {
     margin-bottom: 18px;
 }
 
-
 /* ─────────────────────────────
    IMAGE GRID INSIDE PAGE
 ────────────────────────────── */
@@ -248,7 +246,6 @@ body {
     transform: scale(1.03);
     box-shadow: 0 8px 22px rgba(0,0,0,0.13);
 }
-
 
 /* ─────────────────────────────
    TABLE STYLE
@@ -271,7 +268,6 @@ body {
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
-
 
 /* ─────────────────────────────
    SIDEBAR - INFO BOXES
@@ -299,13 +295,11 @@ body {
     opacity: .85;
 }
 
-/* ─ responsive */
+/* responsive */
 @media(max-width:900px){
     .project-grid {
         grid-template-columns: 1fr;
     }
-}
-
 }
 
 /* Text */
@@ -317,7 +311,6 @@ body {
 .project-links { display: flex; gap: .9rem; list-style: none; padding: 0; }
 .project-links a { text-decoration: none; color: #4f46e5; font-weight: 500; }
 .project-links a:hover { text-decoration: underline; }
-
 
 /* Buttons */
 .btn {
@@ -342,6 +335,17 @@ body {
 
 .btn.primary:hover {
     background-color: #4338ca;
+}
+.projects-grid {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.projects-grid .project {
+    text-align: center;
 }
 
 /* Contact */
