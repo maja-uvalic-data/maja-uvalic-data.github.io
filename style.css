@@ -111,39 +111,7 @@ body {
 
 
 /* PROJECTS */
-.projects-section {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 3rem 2rem;
-}
-
-/* Layout */
-.projects-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
-.projects-grid .project {
-    flex: 1 1 300px;
-    max-width: 340px;
-}
-
-/* Cards */
-.project {
-    background: #f9fafb;
-    border-radius: 1.25rem;
-    border: 1px solid rgba(15, 23, 42, 0.06);
-    overflow: hidden;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.06);
-    transition: .25s ease;
-}
-
-.project:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 10px 24px rgba(0,0,0,0.10);
-}
+v
 
 /* Image */
 .project-image {
