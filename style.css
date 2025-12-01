@@ -72,7 +72,7 @@ body {
 }
 
 .nav a {
-    margin-left: 1rem;
+    margin-left: 1.8rem;
     font-size: 0.9rem;
     text-decoration: none;
     color: #4b5563;
@@ -385,12 +385,12 @@ body {
 }
 /* VEĆE IKONICE NA HOME STRANI */
 .project-icon.large {
-    width: 180px;        /* povećanje sa 90 na 130 */
+    width: 180px;        
     height: 180px;
     border-radius: 18px;
     margin-bottom: 14px;
-    object-fit: cover;       /* popuni okvir */
-    object-position: center; /* izbalansiraj kadriranje */
+    object-fit: cover;       
+    object-position: center; 
 }
 
 /* "Tools" stil */
@@ -421,8 +421,8 @@ body {
 
 /* KONTAKT LINKOVI – ljubičasti i vidljivi */
 #contact a {
-    color: #4f46e5;        /* kontrast i vizuelni fokus */
-    font-weight: 600;      /* deblje slovo da se bolje vidi */
+    color: #4f46e5;        
+    font-weight: 600;      
     text-decoration: none; 
 }
 
@@ -481,18 +481,18 @@ body {
 }  
 
 .hero-photo {
-    width: 260px;          /* koliko veliki krug */
+    width: 260px;          
     height: 260px;
-    border-radius: 50%;    /* pravi krug */
-    overflow: hidden;      /* sve van kruga se odseca */
-    margin-left: auto;     /* opcionalno, gura udesno */
+    border-radius: 50%;    
+    overflow: hidden;      
+    margin-left: auto;     
 }
 
 .hero-photo img.profile-photo {
     width: 100%;
     height: 100%;
-    object-fit: cover;         /* ispuni ceo krug */
-    object-position: 50% 20%;  /* pomeranje fokusa */
+    object-fit: cover;        
+    object-position: 50% 20%;  
 }
 /* HERO raspored */
 .hero-inner {
