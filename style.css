@@ -69,7 +69,7 @@ border-bottom: 1px solid #cbe4f2;
 }
 
 .logo {
-    color: #be123c;
+    color: #1e3a8a;
     font-weight: 600;
     letter-spacing: 0.04em;
 }
@@ -78,11 +78,11 @@ border-bottom: 1px solid #cbe4f2;
     margin-left: 1rem;
     font-size: 0.9rem;
     text-decoration: none;
-    color: #9d174d;
+    color: #1e3a8a;
 }
 
 .nav a:hover {
-     color: #831843;
+     color: #0f172a;
 }
 
 /* Hero */
