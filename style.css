@@ -415,12 +415,15 @@ body {
     margin-bottom: 0.15rem;
 }
 
-.contact-item a {
-    color: #6b7280; 
-    text-decoration: none;
+/* KONTAKT LINKOVI – ljubičasti i vidljivi */
+#contact a {
+    color: #4f46e5;        /* kontrast i vizuelni fokus */
+    font-weight: 600;      /* deblje slovo da se bolje vidi */
+    text-decoration: none; 
 }
 
-.contact-item a:hover {
+#contact a:hover {
+    color: #4338ca;        /* tamnija nijansa na hover */
     text-decoration: underline;
 }
 
