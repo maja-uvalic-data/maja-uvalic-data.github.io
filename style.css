@@ -49,11 +49,13 @@ body {
 .site-header {
     position: sticky;
     top: 0;
-    z-index: 20;
-    background-color: rgba(245, 245, 247, 0.96);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+    z-index: 50;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.06);
 }
+
 
 .header-inner {
     display: flex;
@@ -559,12 +561,4 @@ body {
     font-size: 0.6rem;   /* manji font za ceo deo */
     line-height: 1.45;    /* da ostane čitljivo */
 }
-.site-header {
-    position: sticky;
-    top: 0;
-    z-index: 50;
-    background: rgba(255,255,255,0.7);
-    backdrop-filter: blur(20px);
-    border-bottom: 1px solid rgba(255,255,255,0.5);
-    box-shadow: 0 8px 30px rgba(0,0,0,0.06);
-}
+
