@@ -151,7 +151,6 @@ body {
     margin-bottom: 22px;
 }
 
-/* technology tags */
 .project-tags .tag {
     display: inline-block;
     background: #111;
@@ -545,3 +544,11 @@ body {
 .social-icons a:nth-child(2):hover svg { stroke: #0A66C2; } /* LinkedIn blue */
 .social-icons a:nth-child(3):hover svg { stroke: #5A0096; } /* GitHub purple */
 
+
+#about {
+    margin-top: -40px;   /* podigni sekciju, probaj -20 do -60 po želji */
+}
+
+#about .btn.primary {
+    margin-top: 22px; /* povećaj ako želiš veći razmak – probaj 30px */
+}
