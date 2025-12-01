@@ -561,6 +561,13 @@ body {
     font-size: 0.6rem;   /* manji font za ceo deo */
     line-height: 1.45;    /* da ostane čitljivo */
 }
+/* Centriranje projects naslova i teksta */
+#projects h2,
+#projects .section-intro {
+    text-align: center;
+}
+
+/* (opciono, ali preporučujem) poravnanje projektnih kartica */
 .projects-grid {
     justify-content: center;
 }
