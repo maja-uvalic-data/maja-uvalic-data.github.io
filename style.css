@@ -553,6 +553,6 @@ body {
     margin-top: 22px; /* povećaj ako želiš veći razmak – probaj 30px */
 }
 #impressum {
-    font-size: 0.75rem;   /* manji font za ceo deo */
+    font-size: 0.6rem;   /* manji font za ceo deo */
     line-height: 1.45;    /* da ostane čitljivo */
 }
