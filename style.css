@@ -74,18 +74,18 @@ body {
 /* HEADER NAV LINKS – prettier, darker, clickable */
 
 .nav a {
-    color: #1f2937;               /* tamnija siva – bolja vidljivost */
-    font-weight: 500;             /* malo podebljano */
-    margin-left: 1.8rem;          /* razmak */
+    color: #0f172a;               /* skoro crna – super vidljivo */
+    font-weight: 600;             /* malo jače, ali i dalje elegantno */
+    margin-left: 1.8rem;
     text-decoration: none;
-    padding-bottom: 2px;          /* za underline efekt */
+    padding-bottom: 2px;
     border-bottom: 2px solid transparent;
     transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 .nav a:hover {
-    color: #111827;               /* još tamnije */
-    border-bottom-color: #4f46e5; /* ljubičasti underline – najlepše izgleda */
+    color: #111827;               /* vrlo tamno na hover */
+    border-bottom-color: #4f46e5; /* ljubičasta linija ostaje ista */
 }
 
 /* Hero */
