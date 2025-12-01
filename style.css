@@ -561,4 +561,6 @@ body {
     font-size: 0.6rem;   /* manji font za ceo deo */
     line-height: 1.45;    /* da ostane čitljivo */
 }
-
+.projects-grid {
+    justify-content: center;
+}
