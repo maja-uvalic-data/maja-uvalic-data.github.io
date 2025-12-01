@@ -382,8 +382,8 @@ body {
 }
 /* VEĆE IKONICE NA HOME STRANI */
 .project-icon.large {
-    width: 160px;        /* povećanje sa 90 na 130 */
-    height: 160px;
+    width: 180px;        /* povećanje sa 90 na 130 */
+    height: 180px;
     border-radius: 18px;
     margin-bottom: 14px;
 }
