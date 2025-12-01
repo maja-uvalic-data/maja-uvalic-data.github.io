@@ -336,6 +336,7 @@ body {
 .btn.primary:hover {
     background-color: #4338ca;
 }
+/* PROJECTS GRID ON HOMEPAGE */
 .projects-grid {
     display: flex;
     gap: 32px;
@@ -346,6 +347,28 @@ body {
 
 .projects-grid .project {
     text-align: center;
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid rgba(15, 23, 42, 0.06);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+    padding: 16px 18px 18px;
+    max-width: 260px;
+}
+
+/* Ikonice projekata */
+.project-icon {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 14px;
+    display: block;
+    margin: 0 auto 10px;
+    transition: 0.2s ease;
+}
+
+.project-icon:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
 /* Contact */
