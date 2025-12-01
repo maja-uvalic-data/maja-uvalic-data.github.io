@@ -559,3 +559,12 @@ body {
     font-size: 0.6rem;   /* manji font za ceo deo */
     line-height: 1.45;    /* da ostane čitljivo */
 }
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+}
