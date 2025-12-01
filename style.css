@@ -370,12 +370,17 @@ body {
     transform: scale(1.05);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
-/* CENTRIRAN i ŠIROK PROJECTS BLOK */
+#projects {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
 .projects-section {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 2rem;
 }
+
 
 /* Contact */
 .contact-list {
