@@ -257,25 +257,23 @@ body {
 }
 
 /* ─────────────────────────────
-   TABLE STYLE
+   STYLE
 ────────────────────────────── */
-.project-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0 35px;
-    font-size: 0.9rem;
+.insights-list {
+    list-style: disc;
+    padding-left: 1.5rem;
 }
 
-.project-table th {
-    background: #111;
-    color: white;
-    padding: 10px;
-    text-align: left;
+.insights-list li {
+    margin-bottom: 1.5rem;
 }
 
-.project-table td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+.ins-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+    border-radius: 8px;
 }
 
 /* ─────────────────────────────
