@@ -259,45 +259,56 @@ body {
 /* ─────────────────────────────
    image STYLE
 ────────────────────────────── */
-/* LISTA */
+/* Lista insighta */
 .insights-list {
-    list-style: disc;
-    padding-left: 1.5rem;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
-.insights-list li {
+/* Svaki insight kao mali “card” */
+.ins-item {
     margin-bottom: 2rem;
+    padding: 1.25rem 1.25rem 1.5rem;
+    border-radius: 12px;
+    background-color: #f9fafb;      /* blaga siva pozadina */
+    border: 1px solid #e5e7eb;      /* nežan okvir */
 }
 
-/* GLOBALNI STIL ZA SLIKE */
+/* Tekst insighta – da se ne stopi sa slikama */
+.ins-text {
+    font-weight: 600;               /* bold */
+    margin: 0 0 0.75rem 0;          /* razmak ispod teksta */
+}
+
+/* Osnovni stil za sve slike u insightima */
 .ins-img {
     display: block;
     width: 100%;
     height: auto;
-    margin-top: 0.75rem;
+    margin-top: 0.5rem;
     border-radius: 8px;
 }
 
 /* Šire slike (mape) */
 .ins-wide {
-    max-width: 650px;
-    margin: 0.75rem auto 0;
+    max-width: 700px;
+    margin-inline: auto;
 }
 
-/* Male slike (za 2 u redu) */
+/* Manje slike koje idu 2 u redu */
 .ins-small {
-    max-width: 330px;
+    max-width: 360px;
 }
 
-/* RED SA DVE SLIKE */
+/* Red sa 2 slike (genres + rating) */
 .ins-row {
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
-    margin-top: 0.75rem;
+    gap: 1rem;
+    margin-top: 0.5rem;
 }
 
-/* MOBILNA VERZIJA */
 @media (max-width: 768px) {
     .ins-row {
         flex-direction: column;
