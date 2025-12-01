@@ -123,9 +123,9 @@ body {
 }
 
 .project-hero {
-    background: #fafafa;
+    background: #ffffff;            
     border-bottom: 1px solid #eee;
-    padding: 60px 0;
+    padding: 24px 0 40px;            /* manje prostora gore */
 }
 
 .project-hero-inner {
