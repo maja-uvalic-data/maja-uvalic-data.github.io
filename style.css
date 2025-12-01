@@ -71,15 +71,21 @@ body {
     letter-spacing: 0.04em;
 }
 
+/* HEADER NAV LINKS – prettier, darker, clickable */
+
 .nav a {
-    margin-left: 1.8rem;
-    font-size: 0.9rem;
+    color: #1f2937;               /* tamnija siva – bolja vidljivost */
+    font-weight: 500;             /* malo podebljano */
+    margin-left: 1.8rem;          /* razmak */
     text-decoration: none;
-    color: #4b5563;
+    padding-bottom: 2px;          /* za underline efekt */
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 .nav a:hover {
-    color: #111827;
+    color: #111827;               /* još tamnije */
+    border-bottom-color: #4f46e5; /* ljubičasti underline – najlepše izgleda */
 }
 
 /* Hero */
