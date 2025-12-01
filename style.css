@@ -386,6 +386,8 @@ body {
     height: 180px;
     border-radius: 18px;
     margin-bottom: 14px;
+    object-fit: cover;       /* popuni okvir */
+    object-position: center; /* izbalansiraj kadriranje */
 }
 
 /* "Tools" stil */
