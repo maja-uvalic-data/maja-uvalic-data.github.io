@@ -117,8 +117,8 @@ body {
 /* PROJECTS */
 
 .project-page {
-    padding: 60px 0;
-    padding-bottom: 0px;    
+    padding top: 0;
+    padding-bottom: 40px;    
     background-color: #ffffff;
 }
 
