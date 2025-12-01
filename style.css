@@ -45,31 +45,28 @@ body {
     color: #4b5563;
 }
 
-/* Header & nav */
-/* Header & nav – glass + senka + centriran sadržaj */
+/* HEADER – minimalan, uklopljen sa ostatkom sajta */
+
 .site-header {
     position: sticky;
     top: 0;
     z-index: 50;
-background: #f7f7f5;
-    backdrop-filter: blur(18px);
-border-bottom: 1px solid #dedede;
-    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    background: #ffffff;                 /* čista bela pozadina */
+    border-bottom: 1px solid #e5e7eb;    /* suptilna linija ispod */
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.04); /* vrlo blaga senka da bude uočljiv */
 }
 
-/* Širina kao ostatak sajta */
+/* širina ista kao ostale sekcije */
 .header-inner {
-    max-width: 900px;     /* neka bude isto kao .section-inner */
+    max-width: 900px;     
     margin: 0 auto;
     padding: 0.75rem 1.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1.5rem;
 }
 
 .logo {
-    color: #2c2c2c;
     font-weight: 600;
     letter-spacing: 0.04em;
 }
@@ -78,11 +75,11 @@ border-bottom: 1px solid #dedede;
     margin-left: 1rem;
     font-size: 0.9rem;
     text-decoration: none;
-    color: #2c2c2c;
+    color: #4b5563;
 }
 
 .nav a:hover {
-     color:  #000;
+    color: #111827;
 }
 
 /* Hero */
