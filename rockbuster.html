@@ -28,7 +28,7 @@
                 <div class="project-hero-text">
                     <h1>Rockbuster Stealth LLC</h1>
                     <p class="project-subtitle">
-                        Movie Rental Analysis using SQL to provide insights for management on transitioning from physical rentals to an online streaming service.
+                        Analyzed company data using SQL to provide insights for management on how to transition from physical rentals to an online streaming service.
                     </p>
                     <div class="project-tags">
                         <span class="tag">SQL</span>
@@ -58,4 +58,181 @@
             </div>
         </section>
 
+ <!-- SADRŽAJ PROJEKTA -->
+        <section class="project-content">
+            <div class="container project-grid">
+                <!-- LEVA KOLONA – TEKST -->
+                <div class="project-main">
+                    <h2>Project Overview</h2>
+                    <p>
+                        Rockbuster Stealth LLC is a global movie rental company that previously operated physical stores worldwide. 
+                        With the rise of streaming platforms like Netflix and Amazon Prime, the company faced increasing competition. 
+                        To remain competitive, Rockbuster plans to use its existing movie licenses and launch a new online video rental service. 
+                        This data analysis aims to provide insights into customer behavior to help management develop an effective strategy for the upcoming launch.
+                    <h2>Key Questions</h2>
+                    <ul>
+                        <li>Which movies contributed the most/least to revenue gain??</li>
+                        <li>What was the average rental duration for all videos?</li>
+                        <li>Which countries are Rockbustercustomers based in?</li>
+                        <li>Where are customers with a high lifetime value based?</li>
+                        </li>Do sales figures vary between geographic regions?</li>
+                    </ul>
 
+                    <h2>Data & Tools</h2>
+                    <p>
+                        The Rockbuster dataset is a relational SQL database containing tables on film inventory, customers, payments, staff, stores, and rental history.
+                        
+                        I used the following tools for analysis and insights:
+                    </p>
+                    <ul>
+                        <li><strong>PostgreSQL</strong> – querying, joins, CTEs, aggregations</li>
+                        <li><strong>pgAdmin 4</strong> – database management and data exploration</li>
+                        <li><strong>Tableau Public</strong> – visualization and insights presentation</li>
+                    </ul>
+
+                    <h2>Methodology</h2>
+                    <ol>
+                        <li>Reviewed database schema and identified primary/foreign key relationships</li>
+                        <li>Cleaned and standardized inconsistent values to ensure data accuracy</li>
+                        <li>Merged tables into a single analysis-ready dataframe</li>
+                        <li>Joined tables and filtered relevant fields for analysis</li>
+                        <li>Performed aggregations to examine customer behavior, rental trends, and film performance</li>
+                        <li>Visualized results using Tableau dashboards to support strategic decision-making for a streaming transition</li>
+                    </ol>
+
+                    <h2>Key Insights</h2>
+                    <p>
+                        Below are examples of visualizations created during the analysis.
+                        Click on the images to open the full-size versions in a new tab.
+                    </p>
+
+                    <div class="project-images-grid">
+                        <!-- ZAMENI IMENA SLIKA SVOJIM FAJLOVIMA -->
+                        <a href="imgs/instacart-orders-by-hour.png" target="_blank">
+                            <img src="imgs/instacart-orders-by-hour.png" 
+                                 alt="Orders by hour of day">
+                        </a>
+                        <a href="imgs/instacart-top-products.png" target="_blank">
+                            <img src="imgs/instacart-top-products.png" 
+                                 alt="Top selling products">
+                        </a>
+                        <a href="imgs/instacart-departments.png" target="_blank">
+                            <img src="imgs/instacart-departments.png" 
+                                 alt="Orders by department">
+                        </a>
+                    </div>
+
+                    <h2>Example Summary Table</h2>
+                    <p>
+                        This table shows an example of aggregated results, 
+                        such as the top product categories and their share of total orders.
+                    </p>
+
+                    <!-- PRIMER HTML TABELE -->
+                    <table class="project-table">
+                        <thead>
+                            <tr>
+                                <th>Department</th>
+                                <th>Number of Orders</th>
+                                <th>Share of Total Orders</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Produce</td>
+                                <td>3,245,678</td>
+                                <td>35.2%</td>
+                            </tr>
+                            <tr>
+                                <td>Dairy & Eggs</td>
+                                <td>1,945,210</td>
+                                <td>21.1%</td>
+                            </tr>
+                            <tr>
+                                <td>Snacks</td>
+                                <td>1,123,567</td>
+                                <td>12.2%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h2>Key Insights</h2>
+                    <ul>
+                        <li>
+                            The majority of orders are placed in the late afternoon and early evening,
+                            suggesting that marketing campaigns could be timed around these peak hours.
+                        </li>
+                        <li>
+                            A small number of departments (e.g., Produce, Dairy &amp; Eggs) 
+                            account for a large share of total orders.
+                        </li>
+                        <li>
+                            There are clear patterns in reorders, indicating that Instacart can 
+                            recommend recurring items and personalize the shopping experience.
+                        </li>
+                    </ul>
+
+                    <h2>Conclusion & Next Steps</h2>
+                    <p>
+                        The analysis provides a foundation for targeted marketing campaigns
+                        and personalized recommendations. In the future, the project could be extended
+                        with customer segmentation using clustering methods or predictive models
+                        for forecasting next likely orders.
+                    </p>
+                </div>
+
+                <!-- DESNA KOLONA – SAŽETAK -->
+                <aside class="project-sidebar">
+                    <div class="project-card">
+                        <h3>Project Info</h3>
+                        <ul class="info-list">
+                            <li><strong>Role:</strong> Data Analyst</li>
+                            <li><strong>Domain:</strong> E-commerce / Retail</li>
+                            <li><strong>Client:</strong> CareerFoundry (practice project)</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Files & Links</h3>
+                        <ul class="info-list">
+                            <li>
+                                <a href="https://github.com/maja-uvalic-data/NAZIV_REPOZITORIJUMA" target="_blank" rel="noopener">
+                                    GitHub Repository
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/maja-uvalic-data/NAZIV_REPOZITORIJUMA/BLA_BLA_IPYNB" target="_blank" rel="noopener">
+                                    Jupyter Notebook
+                                </a>
+                            </li>
+                            <!-- Ako imaš PDF prezentaciju ili report -->
+                            <li>
+                                <a href="Docs/instacart_report.pdf" target="_blank" rel="noopener">
+                                    PDF Report (optional)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Skills Highlighted</h3>
+                        <ul class="info-list">
+                            <li>Data cleaning & wrangling</li>
+                            <li>Exploratory data analysis (EDA)</li>
+                            <li>Working with large datasets</li>
+                            <li>Visual storytelling with charts</li>
+                            <li>Business-focused insights</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2025 Maja Uvalić · Data Analyst &amp; Pharmacist</p>
+        </div>
+    </footer>
+</body>
+</html>
