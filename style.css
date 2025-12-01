@@ -259,6 +259,7 @@ body {
 /* ─────────────────────────────
    image STYLE
 ────────────────────────────── */
+/* LISTA */
 .insights-list {
     list-style: disc;
     padding-left: 1.5rem;
@@ -268,7 +269,7 @@ body {
     margin-bottom: 2rem;
 }
 
-/* Osnovni stil za sve slike u insightima */
+/* GLOBALNI STIL ZA SLIKE */
 .ins-img {
     display: block;
     width: 100%;
@@ -277,26 +278,26 @@ body {
     border-radius: 8px;
 }
 
-/* Šire slike (mape) – ali ne preko ~700px da ti ne širi stranicu */
+/* Šire slike (mape) */
 .ins-wide {
-    max-width: 700px;
-    margin-inline: auto;
+    max-width: 650px;
+    margin: 0.75rem auto 0;
 }
 
-/* Manje slike koje idu 2 u redu */
+/* Male slike (za 2 u redu) */
 .ins-small {
-    max-width: 360px;
+    max-width: 330px;
 }
 
-/* Red sa 2 slike (genres + rating) */
+/* RED SA DVE SLIKE */
 .ins-row {
     display: flex;
-    flex-wrap: wrap;
     gap: 1rem;
+    flex-wrap: wrap;
     margin-top: 0.75rem;
 }
 
-/* Ako je ekran uzak (mobilni), da slike idu jedna ispod druge */
+/* MOBILNA VERZIJA */
 @media (max-width: 768px) {
     .ins-row {
         flex-direction: column;
@@ -307,11 +308,6 @@ body {
         max-width: 100%;
     }
 }
-.insights-wrapper {
-    max-width: 750px;
-    margin: 0 auto;
-}
-
 
 
 /* ─────────────────────────────
