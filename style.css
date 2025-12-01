@@ -276,6 +276,32 @@ body {
     display: block;
 }
 
+/* Wide images – for maps or long shapes */
+.img-wide {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    margin: 12px 0;
+}
+
+/* Two images in one row */
+.img-container-row {
+    display: flex;
+    gap: 15px;
+    margin: 12px 0;
+}
+
+.img-half {
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Centered single image */
+.img-container-single {
+    display: flex;
+    justify-content: center;
+    margin: 12px 0;
+}
 
 /* ─────────────────────────────
    SIDEBAR - INFO BOXES
