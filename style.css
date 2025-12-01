@@ -120,6 +120,8 @@ body {
 ────────────────────────────── */
 .project-page {
     padding: 60px 0;
+    padding-bottom: 40px;    
+    background-color: #ffffff;
 }
 
 .project-hero {
