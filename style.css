@@ -380,6 +380,22 @@ body {
     margin: 0 auto;
     padding: 0 2rem;
 }
+/* VEĆE IKONICE NA HOME STRANI */
+.project-icon.large {
+    width: 130px;        /* povećanje sa 90 na 130 */
+    height: 130px;
+    border-radius: 18px;
+    margin-bottom: 14px;
+}
+
+/* "Tools" stil */
+.project-tools-home {
+    font-size: 0.95rem;
+    color: #374151;
+    margin-top: 6px;
+    text-align: center;
+}
+
 
 
 /* Contact */
