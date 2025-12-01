@@ -51,9 +51,9 @@ body {
     position: sticky;
     top: 0;
     z-index: 50;
-    background: rgba(255, 255, 255, 0.88);
+background: #ffe4e6; /* rose tint */
     backdrop-filter: blur(18px);
-    border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+ border-bottom: 1px solid #fecdd3;
     box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
 }
 
@@ -69,6 +69,7 @@ body {
 }
 
 .logo {
+    color: #be123c;
     font-weight: 600;
     letter-spacing: 0.04em;
 }
@@ -77,11 +78,11 @@ body {
     margin-left: 1rem;
     font-size: 0.9rem;
     text-decoration: none;
-    color: #4b5563;
+    color: #9d174d;
 }
 
 .nav a:hover {
-    color: #111827;
+     color: #831843;
 }
 
 /* Hero */
