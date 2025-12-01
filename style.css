@@ -45,18 +45,18 @@ body {
     color: #4b5563;
 }
 
-/* HEADER – minimalan, uklopljen sa ostatkom sajta */
+/* HEADER */
 
 .site-header {
     position: sticky;
     top: 0;
     z-index: 50;
-    background: #ffffff;                 /* čista bela pozadina */
+    background: #ffffff;                 /* white */
     border-bottom: 1px solid #e5e7eb;    /* suptilna linija ispod */
     box-shadow: 0 4px 10px rgba(15, 23, 42, 0.04); /* vrlo blaga senka da bude uočljiv */
 }
 
-/* širina ista kao ostale sekcije */
+
 .header-inner {
     max-width: 900px;     
     margin: 0 auto;
@@ -115,12 +115,10 @@ body {
 
 
 /* PROJECTS */
-/* ─────────────────────────────
-   PROJECT PAGE LAYOUT
-────────────────────────────── */
+
 .project-page {
     padding: 60px 0;
-    padding-bottom: 40px;    
+    padding-bottom: 0px;    
     background-color: #ffffff;
 }
 
@@ -417,7 +415,7 @@ body {
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.14em;
-    color: #111827;   /* tamnija, mnogo čitljivija */
+    color: #111827; 
     margin-bottom: 0.15rem;
 }
 
