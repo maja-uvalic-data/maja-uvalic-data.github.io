@@ -265,65 +265,53 @@ body {
 }
 
 .insights-list li {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
+/* Osnovni stil za sve slike u insightima */
 .ins-img {
-    width: 50%;          /* smanji velicinu — mozes staviti 40%, 50%, 70% */
-    max-width: 450px;    /* ogranicava maksimalnu velicinu */
-    margin-top: 10px auto;
-    border-radius: 10px;
     display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 0.75rem;
+    border-radius: 8px;
 }
 
-/* Wide images – for maps or long shapes */
-.img-wide {
-    width: 100%;
+/* Šire slike (mape) – ali ne preko ~700px da ti ne širi stranicu */
+.ins-wide {
     max-width: 700px;
-    border-radius: 10px;
-    margin: 12px 0;
+    margin-inline: auto;
 }
 
-/* Two images in one row */
-.img-container-row {
-    display: flex;
-    gap: 15px;
-    margin: 12px 0;
+/* Manje slike koje idu 2 u redu */
+.ins-small {
+    max-width: 360px;
 }
 
-.img-half {
-    width: 50%;
-    border-radius: 10px;
-}
-
-/* Centered single image */
-.img-container-single {
-    display: flex;
-    justify-content: center;
-    margin: 12px 0;
-}
-/* Sve slike u insight sekciji */
-.ins-img-wide {
-    width: 100%;
-    max-width: 700px;   /* smanjena maksimalna širina */
-    border-radius: 12px;
-    display: block;
-    margin: 10px auto;
-}
-
-/* dve slike u jednom redu */
+/* Red sa 2 slike (genres + rating) */
 .ins-row {
     display: flex;
-    gap: 12px;
-    justify-content: center;
-    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.75rem;
 }
 
-.ins-img-half {
-    width: 100%;
-    max-width: 340px;   /* taman da stanu dve jedna pored druge */
-    border-radius: 12px;
+/* Ako je ekran uzak (mobilni), da slike idu jedna ispod druge */
+@media (max-width: 768px) {
+    .ins-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ins-small {
+        max-width: 100%;
+    }
 }
+.insights-wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
 
 
 /* ─────────────────────────────
