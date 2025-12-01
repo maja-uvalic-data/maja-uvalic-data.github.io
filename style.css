@@ -571,3 +571,15 @@ body {
 .projects-grid {
     justify-content: center;
 }
+/* Da projekti ne idu toliko široko */
+.projects-section {
+    max-width: 900px;     /* smanji ako želiš još uže — npr. 850 / 800 / 750 */
+    margin: 0 auto;       /* centrira ceo blok */
+    padding: 0 1.5rem;    /* da se ne lepi uz ivice ekrana na mobilu */
+}
+
+/* Ako želiš i projekat kartice malo uže */
+.project {
+    max-width: 800px;
+    margin: 0 auto 2.5rem;
+}
