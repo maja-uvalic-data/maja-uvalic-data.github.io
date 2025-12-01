@@ -302,6 +302,29 @@ body {
     justify-content: center;
     margin: 12px 0;
 }
+/* Sve slike u insight sekciji */
+.ins-img-wide {
+    width: 100%;
+    max-width: 700px;   /* smanjena maksimalna širina */
+    border-radius: 12px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* dve slike u jednom redu */
+.ins-row {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.ins-img-half {
+    width: 100%;
+    max-width: 340px;   /* taman da stanu dve jedna pored druge */
+    border-radius: 12px;
+}
+
 
 /* ─────────────────────────────
    SIDEBAR - INFO BOXES
