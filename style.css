@@ -546,7 +546,7 @@ body {
 
 
 #about {
-    margin-top: -80px;   /* podigni sekciju, probaj -20 do -60 po želji */
+    margin-top: -100px;   /* podigni sekciju, probaj -20 do -60 po želji */
 }
 
 #about .btn.primary {
