@@ -255,6 +255,18 @@ body {
     transform: scale(1.03);
     box-shadow: 0 8px 22px rgba(0,0,0,0.13);
 }
+.key-insight {
+    background: #ffffff;
+    padding: 1.2rem 1.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+.key-insight strong {
+    font-weight: 600;
+    color: #374151;
+}
 
 /* ─────────────────────────────
    image STYLE
