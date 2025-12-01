@@ -257,7 +257,7 @@ body {
 }
 
 /* ─────────────────────────────
-   STYLE
+   image STYLE
 ────────────────────────────── */
 .insights-list {
     list-style: disc;
@@ -269,12 +269,13 @@ body {
 }
 
 .ins-img {
+    width: 50%;          /* smanji velicinu — mozes staviti 40%, 50%, 70% */
+    max-width: 450px;    /* ogranicava maksimalnu velicinu */
+    margin-top: 10px auto;
+    border-radius: 10px;
     display: block;
-    max-width: 100%;
-    height: auto;
-    margin-top: 0.5rem;
-    border-radius: 8px;
 }
+
 
 /* ─────────────────────────────
    SIDEBAR - INFO BOXES
