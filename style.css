@@ -654,12 +654,12 @@ body {
 }
 
 .ins-item {
-    background: #f9fafb;          /* svetla pozadina */
+    background: #f9fafb;
     border-radius: 14px;
     padding: 22px;
     margin-bottom: 26px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.06);
-    border: 1px solid #e5e7eb;    /* suptilan okvir */
+    border: 1px solid #e5e7eb;
 }
 
 .ins-text {
@@ -671,7 +671,10 @@ body {
 
 .ins-img {
     width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
     display: block;
     margin-top: 10px;
 }
+
