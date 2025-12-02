@@ -670,7 +670,25 @@ body {
     display: block;
     margin-top: 10px;
 }
-.influenza .insight-img {
-    margin-bottom: 1.2rem;
+.section-title {
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.insight-block {
+    margin-bottom: 2.2rem; /* razmak između insights */
+}
+
+.insight-text {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.insight-img {
+    margin-bottom: 1rem; 
+    display: block;
+    border-radius: 6px;
 }
 
