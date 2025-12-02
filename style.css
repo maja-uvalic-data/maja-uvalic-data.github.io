@@ -651,7 +651,7 @@ body {
 
 /* KEY INSIGHTS  */
 .info-list {
-    list-style: none;      /* uklanja bullets */
+    list-style: none;
     padding: 0;
     margin: 1.2rem 0;
 }
@@ -662,42 +662,37 @@ body {
 }
 
 body {
-    background: #f8fafc; 
+    background: #f8fafc;
 }
 
+/* Kartice */
 .info-list .ins-item {
-    background: #ffffff;              /* čista bela */
-    border: 1px solid #d1d5db;        /* jači, ali i dalje blag kontrast */
+    background: #ffffff;
+    border: 1px solid #d1d5db;
     border-radius: 12px;
     padding: 1.5rem 1.6rem;
     margin-bottom: 1.8rem;
     box-shadow: 0 3px 8px rgba(0,0,0,0.04);
 }
 
+/* Tekst */
 .info-list .ins-item p {
-    color: #0f172a;   /* tamnija, jasna boja */
+    color: #0f172a;
     font-size: 1.15rem;
     line-height: 1.65;
-    font-weight: 600;  /* čitljivije */
-    opacity: 1;        /* uklanja svetli efekat */
+    font-weight: 600;
+    opacity: 1;
 }
 
-
-.insight-img {
+/* Slike – čisto, oštro, bez rasta preko rezolucije */
+.info-list .ins-item img.insight-img {
     display: block;
     width: 100%;
     max-width: 900px;
-    margin: 12px auto;
-    border-radius: 8px;
+    margin: 14px auto 0;
+    border-radius: 10px;
     background: transparent;
     border: none;
     padding: 0;
     box-shadow: none;
-}
-.info-list .ins-item img.insight-img {
-    width: 100%;
-    max-width: 900px;  /* NE razvlači je */
-    margin: 14px auto 0;
-    display: block;
-    border-radius: 10px;
 }
