@@ -656,34 +656,32 @@ body {
     margin: 1.2rem 0;
 }
 
-
 .section h2 {
-    color: #0f172a !important; 
+    color: #0c1526 !important;
     font-weight: 700;
 }
-
-
 
 body {
     background: #f8fafc; 
 }
 
 .info-list .ins-item {
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-radius: 10px;
-    padding: 1.3rem 1.5rem;
-    margin-bottom: 1.4rem;
-    box-shadow: none;  /* mirnije, manje “napadno” */
+    background: #ffffff;              /* čista bela */
+    border: 1px solid #d1d5db;        /* jači, ali i dalje blag kontrast */
+    border-radius: 12px;
+    padding: 1.5rem 1.6rem;
+    margin-bottom: 1.8rem;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.04);
 }
 
 .info-list .ins-item p {
-    color: #111827;
-    font-size: 1.08rem;
-    font-weight: 500;
-    line-height: 1.6;
-    margin-bottom: 0.8rem;
+    color: #0f172a;   /* tamnija, jasna boja */
+    font-size: 1.15rem;
+    line-height: 1.65;
+    font-weight: 600;  /* čitljivije */
+    opacity: 1;        /* uklanja svetli efekat */
 }
+
 
 .insight-img {
     display: block;
@@ -695,4 +693,11 @@ body {
     border: none;
     padding: 0;
     box-shadow: none;
+}
+.info-list .ins-item img.insight-img {
+    width: 100%;
+    max-width: 900px;  /* NE razvlači je */
+    margin: 14px auto 0;
+    display: block;
+    border-radius: 10px;
 }
