@@ -662,17 +662,20 @@ body {
     margin: 1.2rem 0;
 }
 
-.ins-item {
-    background: #ffffff;               /* jasna bela pozadina */
-    padding: 1.2rem 1.4rem;
-    margin-bottom: 1.2rem;             /* razmak između uvida */
-    border-radius: 10px;               /* blago zaobljenje */
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* nežna senka */
+.ins-item p {
+    color: #111827;          /* tamniji tekst */
+    font-size: 1.12rem;      /* malo veće, čitljivije */
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 0.9rem;
 }
 
-.ins-item p {
-    color: #1f2937;      /* tamno siva, odličan kontrast */
-    font-size: 1.05rem;
-    margin-bottom: 0.8rem;
+.ins-item {
+    background: #ffffff;      /* čista bela */
+    padding: 1.4rem 1.6rem;
+    margin-bottom: 1.4rem;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb; 
+    box-shadow: 0 3px 8px rgba(0,0,0,0.06);
 }
 
