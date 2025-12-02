@@ -421,8 +421,8 @@ body {
 
 /* Ikonice projekata */
 .project-icon {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 14px;
     display: block;
@@ -446,8 +446,8 @@ body {
 }
 /* VEĆE IKONICE NA HOME STRANI */
 .project-icon.large {
-    width: 160px;        
-    height: 160px;
+    width: 120px;        
+    height: 120px;
     border-radius: 18px;
     margin-bottom: 14px;
     object-fit: cover;       
