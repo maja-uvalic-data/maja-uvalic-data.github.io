@@ -634,7 +634,7 @@ body {
 .projects-grid {
     justify-content: center;
 }
-/* Da projekti ne idu toliko široko */
+
 .projects-section {
     max-width: 900px;   
     margin: 0 auto;       
@@ -655,27 +655,32 @@ body {
     display: block;
     margin-top: 10px;
 }
-/* KEY INSIGHTS – novi stil */
+/* KEY INSIGHTS  */
 .info-list {
     list-style: none;      /* uklanja bullets */
     padding: 0;
     margin: 1.2rem 0;
 }
 
-.ins-item p {
-    color: #111827;          /* tamniji tekst */
-    font-size: 1.12rem;      /* malo veće, čitljivije */
-    font-weight: 500;
-    line-height: 1.6;
-    margin-bottom: 0.9rem;
+
+.section h2 {
+    color: #0f172a !important; 
+    font-weight: 700;
 }
 
 .ins-item {
-    background: #ffffff;      /* čista bela */
-    padding: 1.4rem 1.6rem;
-    margin-bottom: 1.4rem;
-    border-radius: 12px;
-    border: 1px solid #e5e7eb; 
-    box-shadow: 0 3px 8px rgba(0,0,0,0.06);
+    background: #ffffff !important; 
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+.ins-item p {
+    color: #111827 !important; 
+    font-size: 1.12rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+body {
+    background: #f8fafc; 
+}
