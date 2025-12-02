@@ -695,29 +695,31 @@ body {
     padding: 0;
     box-shadow: none;
 }
+/* KEY INSIGHTS – cards + images */
+.insights-list {
+    margin: 1.5rem 0 2.5rem;
+}
+
+.insight-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1.5rem 1.8rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.03);
+}
+
+.insight-text {
+    margin: 0 0 0.9rem;
+    font-weight: 500;
+}
+
 /* Smaller charts for Instacart (and other projects if needed) */
 .insight-img {
     display: block;
     max-width: 650px;
     width: 100%;
     height: auto;
-    margin: 1.2rem auto; /* razmak oko slike */
+    margin: 0.4rem auto 0.2rem;
     border-radius: 12px;
-}
-
-/* Reduce vertical space ONLY on Instacart Key Insights section */
-.section.key-insights {
-    padding-top: 2rem;       /* bilo 3.5rem */
-    padding-bottom: 2rem;    /* bilo 3.5rem */
-}
-
-/* Reduce space between each insight card */
-.insight-card {
-    margin-bottom: 1.8rem;   /* bilo previše veliko */
-    padding-bottom: 0; 
-}
-
-/* Reduce space between Methodology and Key Insights */
-.section#methodology {
-    margin-top: 1.5rem;  /* zbijeno ka Key Insights */
 }
