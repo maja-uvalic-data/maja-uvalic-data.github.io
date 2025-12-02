@@ -647,34 +647,26 @@ body {
     margin: 0 auto 2.5rem;
 }
 
-.insights-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.ins-item {
-    background: #f9fafb;
+.insight-card {
+    background: #f9fafb;            /* svetlija, nežna pozadina */
     border-radius: 14px;
     padding: 22px;
     margin-bottom: 26px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.06);
-    border: 1px solid #e5e7eb;
+    border: 1px solid #e5e7eb;      /* suptilan okvir */
 }
 
-.ins-text {
+.insight-text {
     font-size: 1.05rem;
     margin-bottom: 14px;
     line-height: 1.55;
     color: #1f2937;
 }
 
-.ins-img {
+.insight-img {
     width: 100%;
-    max-width: 100%;
     height: auto;
     border-radius: 10px;
     display: block;
     margin-top: 10px;
 }
-
