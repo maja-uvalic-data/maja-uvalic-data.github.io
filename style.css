@@ -695,3 +695,17 @@ body {
     padding: 0;
     box-shadow: none;
 }
+/* Smaller charts for Instacart (and other projects if needed) */
+.insight-img {
+    display: block;
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+    margin: 1.2rem auto; /* razmak oko slike */
+    border-radius: 12px;
+}
+
+/* Reduce space below Key Insights section */
+.section.key-insights {
+    padding-bottom: 1rem;
+}
