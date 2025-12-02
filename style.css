@@ -694,13 +694,14 @@ body {
 }
 
 .insight-img {
-  background-color: #fff;       /* bela pozadina iza slike */
-  border: 1px solid #cbd5e1;    /* nežan, ali vidljiv okvir */
-  border-radius: 8px;
-  padding: 4px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);  /* blaga senka oko slike */
-  display: block;
-  width: 100%;
-  margin-top: 12px;
-}
+    background-color: #ffffff;       /* čista bela pozadina */
+    border: 1px solid #cbd5e1;       /* nežan, ali vidljiv okvir */
+    border-radius: 10px;
+    padding: 4px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08); 
+    display: block;
 
+    width: 100%;                     /* slika responsivna */
+    max-width: 900px;                /* ali se NE širi preko svoje rezolucije */
+    margin: 12px auto;               /* centrirana + razmak */
+}
