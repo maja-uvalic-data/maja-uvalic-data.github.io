@@ -705,7 +705,19 @@ body {
     border-radius: 12px;
 }
 
-/* Reduce space below Key Insights section */
+/* Reduce vertical space ONLY on Instacart Key Insights section */
 .section.key-insights {
-    padding-bottom: 1rem;
+    padding-top: 2rem;       /* bilo 3.5rem */
+    padding-bottom: 2rem;    /* bilo 3.5rem */
+}
+
+/* Reduce space between each insight card */
+.insight-card {
+    margin-bottom: 1.8rem;   /* bilo previše veliko */
+    padding-bottom: 0; 
+}
+
+/* Reduce space between Methodology and Key Insights */
+.section#methodology {
+    margin-top: 1.5rem;  /* zbijeno ka Key Insights */
 }
