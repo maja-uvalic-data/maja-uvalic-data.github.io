@@ -665,7 +665,7 @@ body {
     background: #f8fafc;
 }
 
-/* Kartice */
+
 .info-list .ins-item {
     background: #ffffff;
     border: 1px solid #d1d5db;
@@ -675,7 +675,7 @@ body {
     box-shadow: 0 3px 8px rgba(0,0,0,0.04);
 }
 
-/* Tekst */
+
 .info-list .ins-item p {
     color: #0f172a;
     font-size: 1.15rem;
@@ -684,7 +684,6 @@ body {
     opacity: 1;
 }
 
-/* Slike – čisto, oštro, bez rasta preko rezolucije */
 .info-list .ins-item img.insight-img {
     display: block;
     width: 100%;
