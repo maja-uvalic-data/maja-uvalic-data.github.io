@@ -163,16 +163,19 @@
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="container footer-inner">
-            <p>&copy; 2025 Maja Uvalić · Data Analyst &amp; Pharmacist</p>
-        </div>
-    </footer>
-    <footer class="site-footer">
+  <footer class="site-footer">
     <div class="container">
-        <a href="impressum.html">Impressum</a>
+        <p class="footer-copy">
+            © <span id="year"></span> Maja Uvalić · Data Analytics Portfolio · 
+            <a href="impressum.html">Impressum</a>
+        </p>
     </div>
 </footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
 
 </body>
 </html>
